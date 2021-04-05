@@ -1,4 +1,4 @@
-﻿<!DOCTYPE  html>
+<!DOCTYPE  html>
 <html  lang="zh-cn">
 <head>
 <meta charset="utf-8">
@@ -7,10 +7,10 @@
   table {width:494px;height:281px;border-collapse:collapse;text-align:center;margin:20px auto}
   table,td {border:solid 1px black;}
   h1 {text-align:center}
-  {background-color:#DDD}
-  {background-color:rgb(200,200,255);}
-  {color:grey;}
-  {content:"*";} 
+  tr:first-child{background-color:#DDD}
+  tr:nth-child(n+2) td:nth-child(even){background-color:rgb(200,200,255);}
+  tr:nth-child(2) td:nth-child(-n+3){color:grey;}
+  tr:nth-child(2)>td:nth-child(n+4):after,tr:nth-child(3)>td:nth-child(-n+3):after{content:"*";} 
 </style>
 </head>
 <body>

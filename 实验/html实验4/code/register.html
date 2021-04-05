@@ -1,4 +1,4 @@
-﻿<!DOCTYPE  html>
+<!DOCTYPE  html>
 <html  lang="zh-cn">
 <head>
 <meta charset="utf-8">
@@ -10,6 +10,10 @@
    [for="content"]{vertical-align:top;}
    fieldset {width:800px;margin:20px auto;padding:20px;background-color:#FCFCFF;}
    #content {width:700px;height:300px}
+   input:focus,textarea:focus{background-color: yellow;}
+   input:checked+span{color: red;}
+   button:disabled,input:disabled{color: yellow;}
+   textarea::selection{background-color: blue;color: white;}
 </style>
 </head>
 <body>

@@ -1,12 +1,18 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 <head>
 <title>荷塘月色</title>
 <meta charset="utf-8">
 <style type="text/css">
- article {max-width:800px;text-align:center;margin:20px auto;}
- p {text-align:left;text-indent:2em}
-
+	article {max-width:800px;text-align:center;margin:20px auto;}
+	p {text-align:left;text-indent:2em}
+	h1,p:nth-child(2) {text-align: center; text-indent: 0;}
+	p:nth-child(n+3):first-letter {font-size: 1.5em; color: blue;}
+	span:first-child {display: inline;}
+	span:nth-child(n+2) {display: none;}
+	span:first-child:after {content: ". . .";}
+	p:hover span {display: inline;}
+	p:hover span:first-child:after {content: none;}
 </style>
 </head>
 <body>
