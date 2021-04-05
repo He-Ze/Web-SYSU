@@ -5,9 +5,46 @@
   <title>Twitter Icons</title>
   <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
   <style>
+    .form{
+      width: 200px;
+      height: 60px;
+      border: solid 1.5px gray;
+      border-radius: 10px;
+      box-shadow: 1px 3px 5px gray;
+      margin: 50px auto;
+      padding: 5px 35px 50px 25px;
+      background-color: #B4FAB4;
+    }
+    .login{
+      margin: 10px 0px;
+    }
+    .fa{
+      color: blue;
+    }
+    .input-text{
+      width: 150px;
+      height: 25px;
+      border: solid 0.5px gray;
+      border-radius: 5px;
+      box-shadow: 1px 1px 1px gray;
+      background-color: #B4FAB4;
+    }
   </style>
 </head>
 <body>
-
+  <div class="form">
+    <div class="login">
+      <span class="input-logo">
+        <i class="fa fa-user fa-fw"></i>
+      </span>
+      <input class="input-text" type="text" placeholder="  用户名">
+    </div>
+    <div class="login">
+      <span class="input-logo">
+        <i class="fa fa-key fa-fw"></i>
+      </span>
+      <input class="input-text" type="password" placeholder="  密码">
+    </div>
+  </div>
 </body>
 </html>
