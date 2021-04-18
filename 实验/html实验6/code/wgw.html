@@ -1,29 +1,131 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>古诗词-人间词话七则</title>
-    <style>
-        html {
-            font-family: 宋体;
-            font-size: 20px;
-        }
-
-        h1 {
-            font-size: 36px;
-        }
-
-        body {
-            background: rgb(243, 243, 243);
-        }
-
-        #header {
-        }
-
-        #header_inner {
-            width: 800px;
-        }
-    </style>
-
+	<title>古诗词-人间词话七则</title>
+	<style>
+		body{
+			background: rgb(240,240,240); 
+		}
+		#header{
+			height: 50px;
+			width: 100%;
+			background-color: black;
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 2;
+		}
+		#header_inner{
+			margin: auto;
+			width: 800px;
+			position: relative;
+		}
+		#header_inner img{
+			margin: 5px 0px;
+			left: 0;
+			height: 40px;
+			position: absolute;
+		}
+		#header_inner .nav{
+			margin: 15px 0px;
+			right: 0;
+			font-size: 16px;
+			position: absolute;
+		}
+		#title_inner{
+			box-sizing: border-box;
+			margin: auto;
+			margin-top: 55px;
+			width: 800px;
+			border: 1px solid rgb(220,220,220);
+			position: relative;
+		}
+		#title_inner .bk{
+			background: url(images/wgw_main.jpg);
+			width: inherit;
+			height: 320px;
+			opacity: 0.2;
+			overflow: hidden;
+		}
+		#title_inner h1{
+			font-family: 宋体;
+			font-size: 32px; 
+			position: absolute;
+			top: 20%;
+			left: 36%;
+		}
+		#title_inner h2{
+			font-family: 宋体;
+			font-size: 14px;
+			position: absolute;
+			top: 26%;
+			left: 62%;
+		}
+		#title_inner .author{
+			position: absolute;
+			top: 45%;
+			left: 45%;
+			width: 80px;
+			z-index: 1;
+			box-shadow: 3px 3px 10px rgb(220,220,220);
+		}
+		#title_inner #star1{
+			transform: rotate(30deg);
+			position: absolute;
+			top: 85%;
+			right: 21%;
+			width: 18px;
+		}
+		#title_inner #star2{
+			transform: rotate(50deg);
+			position: absolute;
+			top: 80%;
+			right: 17%;
+			width: 18px;
+		}
+		#title_inner #star3{
+			position: absolute;
+			top: 78%;
+			right: 13%;
+			width: 18px;
+		}
+		#title_inner #star4{
+			transform: rotate(30deg);
+			position: absolute;
+			top: 80%;
+			right: 9%;
+			width: 18px;
+		}
+		#star5{
+			transform: rotate(45deg);
+			position: absolute;
+			top: 85%;
+			right: 5%;
+			width: 18px;
+		}
+		#tj{
+			font-family: 楷体;
+			font-size: 18px;
+			position: absolute;
+			top: 88%;
+			right: 12%;
+		}
+		#article_inner{
+			font-size: 20px;
+			background: white;
+			box-sizing: border-box;
+			width: 800px;
+			margin: auto;
+			margin-top: 10px;
+			padding: 15px;
+			border: 1px solid rgb(220, 220, 220);
+		}
+		#article_inner p{
+			text-indent: 2em;
+			font-family: 隶书;
+			line-height: 1.5em;
+		}
+	</style>
 </head>
 <body>
     <div id="header">

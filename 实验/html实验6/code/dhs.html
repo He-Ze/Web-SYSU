@@ -1,11 +1,88 @@
-﻿<!DOCTYPE  html>
+<!DOCTYPE  html>
 <html lang="zh-cn">
 <head>
     <meta charset="utf-8" />
     <title>旅游故事</title>
-    <style>
-
-    </style>
+	<style>
+		#ew{
+			float: left;
+			position: fixed;
+			z-index: 1;
+		}
+		#container{
+			max-width: 1000px;
+			min-width: 700px;
+			background-color: rgb(195,195,195);
+			margin: auto;
+		}
+		#menu{
+			background-color: rgb(120,120,120);
+			height: 25px;
+			text-align: right;
+		}
+		#menu a{
+			color: rgb(300,300,300);
+			text-decoration: none;
+			vertical-align: middle;
+		}
+		#header{
+			height: 200px;
+			background-color: rgb(255,205,205);
+			overflow: hidden;
+			position: relative;
+		}
+		#h-textbk{
+			transform: rotate(20deg);
+			opacity: 0.2;
+		}
+		#h-title{	
+			text-shadow: 3px 3px 3px rgb(120,120,120);
+			position: absolute;
+			font-size: 3rem;
+			font-family: KaiTi;
+			font-weight: bolder;
+			top: 20%;
+			left: 30%;
+		}
+		#h-image{
+            width: 20%;
+            position: absolute;
+            border-radius: 150px/100px;
+            top: 15%;
+            right: 7%;		
+		}
+		#l-aside{
+			float: left;
+			width: 190px;
+			padding: 15px;
+		}
+		#r-aside{
+			float: right;
+			width: 190px;
+			padding: 15px;
+		}
+		#l-title, #r-title{
+			background: linear-gradient(to right, white 0%, green 100%);
+			text-align: center;
+			margin: -10px 0px 10px 0px;
+		}
+		#main{
+			background: white;
+			margin: -10px 220px 0 220px;
+			padding: 20px;
+		}
+		#main p{
+			text-indent: 2em;
+		}
+		#footer{
+			border: 1px solid rgb(255,205,205);
+			background-color: rgb(255,205,205);
+			text-align: center;
+		}
+		#footer span{ 
+			text-decoration: underline; 
+		}
+	</style>
 </head>
 <body>
     <div id="ew">
@@ -71,7 +148,7 @@
         <div class="clear"></div>
         <div id="footer">
             <p>广州美丽坊旅游公司&copy;2017</p>
-            <p>联系方式：020-12345678</p>
+            <p>联系方式：<span>020-12345678</span></p>
         </div>
     </div>
 </body>
