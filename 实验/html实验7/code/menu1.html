@@ -1,42 +1,100 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
     <meta content="text/html;charset=utf-8">
     <title>第二中学</title>
-    <style>
-        * { margin:0; padding:0;font-size:12px;font-family:宋体;line-height:1.2em}
-        a:link, a:visited, a:hover, a:active {text-decoration: none;}
+	<style>
+		* { 
+			margin:0; 
+			padding:0;
+			font-size:12px;
+			font-family:宋体;
+			line-height:1.2em
+		}
+		a:link, a:visited, a:hover, a:active {
+			text-decoration: none;
+		}
+		.wrapper {
+			margin: 0 auto;
+			width: 980px;
+			position:relative;
+		}
+		li {
+			list-style-type:none;
+			float: left;
+		}
+		#header_outer {
+			height: 140px;
+			background: url("../images/header_bg.png") repeat-x;
+		}
+		#header {            
+			orverflow: hidden;
+		}
+		#nav_outer {
+			height:60px;
+			background: url('../images/nav_bg.jpg') repeat-x;
+			background-position-y: -8px;
+			background-color: #6f4c1b;
+		}
+		#nav {
+			position: relative;
+		}
+		#nav span,#nav a {
+			font-size:14px;
+			font-family: 微软雅黑;
+		}
+		#nav .subnav {
+			height:30px;
+			width:960px;
+			position: absolute;
+			top: 30px;
+			left: 0px;
+			margin-top: 6px;
+			padding: 0px 6px;
+		}
+		#main_outer {
+			height: 500px;
+			background:url("../images/header_bg.png") repeat-x;
+			background-position: 0 -180px;
+		}
+		#nav > li > a {
+			font-size: 1.5em;
+			color: white;
+			float: left;
+			vertical-align: text-bottom;
+			margin: 4px 30px;
+			background-clip: border-box;
+		}
+		#nav > li {
+			transition-property: background-position-y;
+			background-position-y: -65px;
+			transition-duration: 0.3s;
+			height: 50px;
+			width: 140px;
+		}
+		#nav li:hover {
+			background-position-y: -32px;
+			background-image: url('../images/nav_bg2.gif');
+			transition-property: background-position-y;
+			transition-duration: 0.2s;
+		}
+		#nav .subnav { 
+			width: 960px;
+			height: 30px;
+			display: none; 
+		}
+		#nav li:hover .subnav {
+			display: block; 
+		}
+		#nav .subnav a, span {
+			color: #f1c149;
+			margin: 10px;
+		}
+		#nav .subnav a:hover {
+			color: yellow;
+		}
+	</style>
 
-        .wrapper {
-            margin: 0 auto;
-            width: 980px;
-            position:relative;
-        }
-        
-        li {list-style-type:none}
-
-        #header_outer {
-            height: 140px;
-            background: url("images/header_bg.png") repeat-x;
-        }
-
-        #header {            
-            orverflow: hidden;
-        }
-
-        #nav_outer {height:60px;}
-        #nav span,#nav a {font-size:14px;}
-
-        #nav>li {width:140px;}
-
-        #nav .subnav {height:26px;width:960px;}
-
-        #main_outer {
-            height: 500px;
-            background:url("images/header_bg.png") repeat-x;
-            background-position: 0 -180px;
-        }
-    </style>  
 </head>
 <body>
     <div id="header_outer">
