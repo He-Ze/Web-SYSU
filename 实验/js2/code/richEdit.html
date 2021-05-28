@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rich Text Editing</title>
+		<style type="text/css">
+			.editable {
+				padding:10px;
+				width:500px;
+				height:200px;
+				border:solid 1px black;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="editable" id="richedit" contenteditable="true"></div><br>
+		<input type="button" value="Ð±Ìå" onclick="italic()">
+		<input type="button" value="ÑÕÉ«" onclick="color()">
+		<input type="button" value="×ÖºÅ" onclick="fontSize()">
+		<input type="button" value="Í¼Ïñ" onclick="image()">
+		<input type="button" value="Á´½Ó" onclick="link()">
+		<input type="button" value="³·Ïú" onclick="undo()">
+		<input type="button" value="´úÂë" onclick="code()">
+		<script>
+			function italic() { document.execCommand("italic", false, null);}
+			function color() { document.execCommand("foreColor", false, "red");}
+			function fontSize() { document.execCommand("fontSize", false, 7);}
+			function image() { document.execCommand("insertImage", false, "images/home.gif");}
+			function link() { document.execCommand("createLink", false, " ");}
+			function undo() { document.execCommand("undo", false, null);}
+			function code() {
+				var richedit = document.getElementById("richedit");
+				alert(richedit.innerHTML);
+			}
+		</script>
+	</body>
+</html>
