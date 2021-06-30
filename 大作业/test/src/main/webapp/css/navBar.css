@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(102, 188, 250, 0.91);
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgba(102, 188, 250, 0.91);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.active {
+    color: rgba(102, 188, 250, 0.91);
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown2 {
+    float: right;
+    overflow: hidden;
+    margin-right: 65px;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: rgba(102, 188, 250, 0.91);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown2 .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: rgba(102, 188, 250, 0.91);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    float: right;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgba(102, 188, 250, 0.91);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(102, 188, 250, 0.91);
+    color: white;
+}
+
+.topnav a:hover, .dropdown2:hover .dropbtn {
+    background-color: rgba(102, 188, 250, 0.91);
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(29, 161, 242);
+    color: #fdfdfd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown2:hover .dropdown-content {
+    display: block;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.topnav .search-container {
+    margin-left: 120px;
+    float: left;
+}
+
+.topnav .search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: rgba(102, 188, 250, 0.91);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+#right {
+    float: right;
+}
+
+#login {
+    float: right;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+#signup {
+    float: right;
+    color: black;
+    background-color: white;
+    margin-right: 20px;
+
+}
+
+#signup:hover {
+    background-color: rgba(102, 188, 250, 0.91);
+    color: white;
+}
+
+#post {
+    color: rgba(102, 188, 250, 0.91);
+}
+
+#post:hover {
+    color: white;
+    background-color: rgba(102, 188, 250, 0.91);
+}
+
+#logout {
+    color: red;
+    text-align: center;
+}
+
+.topnav .search-container button:hover {
+    background: #9ac3f5;
+}

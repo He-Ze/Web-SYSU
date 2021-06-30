@@ -1,0 +1,73 @@
+.profile_follow {
+    -webkit-animation: popUp ease-in-out 350ms;
+    animation: popUp ease-in-out 350ms;
+    background: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.17);
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    position: relative;
+    padding: 38px 30px 30px 35px;
+    width: 400px;
+
+}
+
+.profile_follow:hover {
+    opacity: 0.6;
+}
+
+.followbtn {
+
+    -webkit-box-flex: 0;
+    flex: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 140px;
+
+}
+
+
+.prfbtn {
+    -webkit-box-flex: 0;
+    flex: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 140px;
+}
+
+.layout-following {
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    display: -webkit-box;
+    -webkit-box-pack: baseline;
+    justify-content: space-around;
+
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    margin-left: 180px;
+    height: 500px;
+    width: 1400px;
+    overflow: auto;
+}
+
+.status {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.username {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+
+
+

@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+
+body {
+    background: rgba(102, 188, 250, 0.91);
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 90px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 200px;
+}
+
+.topic {
+    margin-left: 100px;
+}
+
+img {
+    width: 135px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 160px;
+    margin-top: -50px;
+}
+
+h3 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: white;
+    float: left;
+    left: 30%;
+}
+
+p {
+    color: rgb(96, 165, 245);
+}
+
+.vertical {
+    border-left: 6px solid white;
+    height: 550px;
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+}
+
+.container {
+    position: absolute;
+    width: 450px;
+    height: 460px;
+    left: 50%;
+    margin-left: 100px;
+    margin-top: 110px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+form {
+    margin-top: 30px;
+    margin-left: 2px;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 160px;
+    margin-top: -50px;
+}
+
+.button {
+    width: 70%;
+    background: rgb(30, 124, 234);
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 70px;
+    padding: 12px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.button:hover {
+    background: rgb(30, 124, 234);
+    box-shadow: 0 0 10px rgb(30, 124, 234), 0 0 10px rgb(30, 124, 234), 0 0 30px rgb(30, 124, 234);
+}
+
+input {
+    width: 70%;
+    color: rgb(96, 165, 245);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: transparent;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 2px solid rgb(96, 165, 245);
+    outline: none;
+    box-sizing: border-box;
+    margin-left: 70px;
+}
+
+input:active,
+input:focus {
+    border-bottom: 0.12em solid rgb(96, 165, 245);
+    box-shadow: 0 5px 5px -5px rgb(96, 165, 245);
+}
+
+label {
+    color: rgb(30, 124, 234);
+    text-transform: uppercase;
+    padding: 13px 20px;
+    margin-left: 50px;
+    position: relative;
+    display: block;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#log {
+    margin-left: 35%;
+    margin-top: 35px;
+    color: rgb(30, 124, 234);
+}
+
+#login {
+    text-decoration: none;
+    color: rgb(30, 124, 234);
+}

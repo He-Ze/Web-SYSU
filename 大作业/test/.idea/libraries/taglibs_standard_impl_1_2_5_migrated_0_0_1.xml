@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="taglibs-standard-impl-1.2.5-migrated-0.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/apache-tomcat-10.0.6/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5-migrated-0.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/apache-tomcat-10.0.6/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5-migrated-0.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
